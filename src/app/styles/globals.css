@@ -109,7 +109,7 @@ body {
 }
 
 /* Start Of About Sectio --- Scroll Horizolial (Css) */
-.scroll-section-outer {
+.scroll-section-outer,.about-mobile {
   overflow: hidden;
   position: relative;
   background-color: var(--color-dark-gray);

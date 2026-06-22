@@ -252,7 +252,7 @@ export default function About({
           </div>
         </div>
       ) : (
-        <div className="flex flex-col gap-10 lg:gap-24 bg-gradient-to-b from-[var(--color-dark-gray)] via-[color-mix(in_srgb,var(--color-dark-gray)_70%,var(--color-primary))] to-[var(--color-primary)] min-h-fit">
+        <div className="flex flex-col gap-10 lg:gap-24 about-mobile min-h-[50vh]">
           <div
             ref={visionRef}
             className="px-6 pt-24 pb-6 lg:py-24 text-center w-full min-h-fit"
@@ -278,7 +278,7 @@ export default function About({
             ref={ownerSectionRef}
             className="px-6 pb-6 lg:pb-24 flex flex-col items-center text-center w-full min-h-fit"
           >
-            <div className="relative mb-8">
+            {/* <div className="relative mb-8">
               <div
                 className="relative w-72 h-96 overflow-hidden transition-all duration-[1200ms] ease-[cubic-bezier(0.22,0.61,0.36,1)]"
                 style={{
@@ -318,7 +318,7 @@ export default function About({
                     "polygon(30% 0%, 100% 0%, 100% 70%, 70% 100%, 0% 100%, 0% 30%)",
                 }}
               />
-            </div>
+            </div> */}
 
             {/* <h2
               className="text-start w-full sm:text-center text-3xl font-bold text-main-white mb-2 transition-all duration-[1200ms] ease-[cubic-bezier(0.22,0.61,0.36,1)]"
