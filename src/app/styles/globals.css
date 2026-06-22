@@ -1,0 +1,314 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1a1a1a;
+  --color-dark-gray: #0e0e0e;
+  --color-deep-gray: #7a7a7a;
+  --color-mid-gray: #c8c8c8;
+  --color-main-white: #ffffff;
+}
+
+html[lang="ar"] * {
+  font-family: var(--font-arabic), sans-serif !important;
+}
+
+html[lang="en"] * {
+  font-family: var(--font-montserrat), sans-serif !important;
+}
+
+body {
+  margin: 0;
+  color: var(--color-main-white);
+}
+
+/* Hide native cursor only on screens lg and up (1024px and wider) */
+@media (min-width: 1024px) {
+  html,
+  body {
+    cursor: none;
+  }
+
+  a,
+  button,
+  [role="button"],
+  .hoverable {
+    cursor: none !important;
+  }
+}
+
+@media (max-width: 1023px) {
+  .modern-cursor,
+  .cursor-dot {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .modern-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 999999;
+
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+
+    border: 1px solid rgba(255, 255, 255, 0.35);
+
+    will-change: transform;
+
+    /* Transitions only for scale/appearance changes on hover */
+    transition:
+      width 0.2s ease,
+      height 0.2s ease,
+      background-color 0.2s ease,
+      border-color 0.2s ease,
+      backdrop-filter 0.2s ease;
+  }
+
+  /* Hover = interactive glass */
+  .modern-cursor.hover {
+    width: 44px;
+    height: 44px;
+
+    background: rgba(255, 255, 255, 0.13);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    border-color: rgba(255, 255, 255, 0.65);
+  }
+
+  /* Inner dot */
+  .cursor-dot {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 999999;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: white;
+    will-change: transform;
+
+    /* The dot is instant */
+    transition: width 0.2s ease, height 0.2s ease;
+  }
+
+  /* Optional: scale dot on hover */
+  .cursor-dot.hover {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+/* Start Of About Sectio --- Scroll Horizolial (Css) */
+.scroll-section-outer {
+  overflow: hidden;
+  position: relative;
+}
+
+.scroll-section-inner {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  flex-wrap: nowrap;
+  width: fit-content;
+  will-change: transform;
+  background-color: var(--color-dark-gray);
+  /* Match theme to hide sub-pixel gaps */
+}
+
+.scroll-section-horizontaliy {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+@media (max-width: 1024px) {
+  .scroll-section-horizontaliy {
+    min-height: 100vh;
+    height: auto;
+    align-items: flex-start;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .scroll-section-inner {
+    min-height: 100vh;
+  }
+}
+
+.scroll-section-horizontaliy h3 {
+  color: var(--color-mid-gray);
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+/* End Of About Sectio --- Scroll Horizolial (Css) */
+
+::selection {
+  background: color-mix(in srgb, var(--color-mid-gray) 40%, transparent);
+  color: var(--color-main-white);
+}
+
+/* Navigation Effect */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none !important;
+}
+
+::view-transition-group(root) {
+  z-index: auto !important;
+}
+
+::view-transition-image-pair(root) {
+  isolation: isolate;
+  will-change: transform, opacity, clip-path;
+  z-index: 1;
+}
+
+::view-transition-new(root) {
+  z-index: 10000;
+  animation: none !important;
+}
+
+::view-transition-old(root) {
+  z-index: 1;
+  animation: none !important;
+}
+
+/* Hide scrollbar for all elements */
+* {
+  scrollbar-width: none;
+  /* Firefox */
+  -ms-overflow-style: none;
+  /* IE 10+ */
+}
+
+*::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, Edge */
+}
+
+section {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.parallax img,
+.parallax video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  will-change: transform;
+}
+
+.parallax {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Projects Section Styles */
+.projects-cards img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  will-change: transform;
+  font-family: "Inter", sans-serif;
+}
+
+.projects-cards h2 {
+  font-size: 5rem;
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -0.1rem;
+}
+
+.projects-cards p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.25;
+}
+
+.projects .char {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.projects .char span {
+  transform: translateX(100%);
+  display: inline-block;
+  will-change: transform;
+}
+
+/* Initial states for cards - GSAP will override these */
+.projects-cards .card-img img {
+  transform: scale(1.05);
+}
+
+.projects-cards .card:first-child .card-img {
+  transform: scale(0.5);
+  border-radius: 400px;
+}
+
+.projects-cards .card:first-child .card-img img {
+  transform: scale(1.5);
+}
+
+.projects-cards .card:not(:first-child) .card-img {
+  border-radius: 0;
+  /* allow later cards to fill as full-bleed backgrounds */
+}
+
+.projects-cards {
+  height: auto;
+  /* allow all pinned cards to flow without clipping */
+  min-height: 100vh;
+  overflow: visible;
+  /* keep scaled images fully visible */
+}
+
+.projects-cards .project-card {
+  overflow: visible;
+  /* avoid cutting scaled images at card edges */
+  width: 100vw;
+  /* ensure full viewport width */
+  min-height: 100vh;
+  /* ensure full viewport height */
+  padding: 0;
+  /* remove inner padding so media fills the frame */
+}
+
+@media (max-width: 900px) {
+  .projects-cards h2 {
+    font-size: 2rem;
+    letter-spacing: 0;
+  }
+}
+
+/* Services Section - Override global section styles */
+.services-section {
+  height: auto !important;
+  min-height: 100vh;
+  overflow: visible !important;
+}
