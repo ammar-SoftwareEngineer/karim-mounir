@@ -222,7 +222,7 @@ export default function About({
                   /> */}  
                 </div>
 
-                <div className=" max-w-sm about-animate">
+                <div className="rtl:max-w-sm ltr:max-w-md about-animate">
                   {/* <h2 className="text-4xl md:text-5xl font-bold text-main-white mb-4">
                     {about.title}
                   </h2> */}
