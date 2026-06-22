@@ -36,8 +36,9 @@ export default function Hero({ banner }: { banner: Banner }) {
           ref={bgRef}
           className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 ease-out will-change-transform"
           style={{ transform: "scale(1.02)" }}
-          src="/hero1.mp4"
+          src="/Concept.mp4"
           autoPlay
+          loop
           muted
           playsInline
           preload="auto"

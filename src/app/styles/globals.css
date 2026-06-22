@@ -112,17 +112,20 @@ body {
 .scroll-section-outer {
   overflow: hidden;
   position: relative;
+  background-color: var(--color-dark-gray);
+  background: url('../../../public/Main\ page\ concept\ hiras.png') no-repeat center center;
+  background-size: cover;
 }
 
 .scroll-section-inner {
   height: 100vh;
   display: flex;
-  flex-direction: row;
+
   position: relative;
   flex-wrap: nowrap;
   width: fit-content;
   will-change: transform;
-  background-color: var(--color-dark-gray);
+
   /* Match theme to hide sub-pixel gaps */
 }
 
@@ -133,6 +136,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-shrink: 0;
+
 }
 
 @media (max-width: 1024px) {

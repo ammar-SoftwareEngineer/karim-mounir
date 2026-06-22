@@ -12,7 +12,13 @@ import { FadeInWords } from "@/app/[locale]/about/AboutPage";
 
 gsap.registerPlugin(ScrollTrigger);
 
-export default function About({ about, about_structs }: { about: AboutType, about_structs: AboutStruct[] }) {
+export default function About({
+  about,
+  about_structs,
+}: {
+  about: AboutType;
+  about_structs: AboutStruct[];
+}) {
   function useIsDesktop() {
     const [isDesktop, setIsDesktop] = useState(false);
 
@@ -141,7 +147,7 @@ export default function About({ about, about_structs }: { about: AboutType, abou
   return (
     <>
       {isDesktop ? (
-        <div ref={containerRef} className="scroll-section-outer">
+        <div ref={containerRef} className="scroll-section-outer about">
           <div ref={scrollContainerRef} className="scroll-section-inner">
             {/* OUR VISION */}
             <div
@@ -171,11 +177,11 @@ export default function About({ about, about_structs }: { about: AboutType, abou
             {/* OWNER SECTION */}
             <div
               ref={ownerSectionRef}
-              className="scroll-section-horizontaliy bg-gradient-to-b from-[var(--color-dark-gray)] via-[color-mix(in_srgb,var(--color-dark-gray)_70%,var(--color-primary))] to-[var(--color-primary)] will-change-transform"
+              className="scroll-section-horizontaliy bg-gradient-to-b "
             >
-              <div className="flex flex-col lg:flex-row items-center justify-center gap-12 px-8 py-8 lg:py-0 max-w-7xl mx-auto w-full">
+              <div className="flex flex-col lg:flex-row items-center ltr:justify-end rtl:justify-start gap-12 px-8 py-8 lg:py-0 max-w-6xl mx-auto w-full">
                 <div className="relative">
-                  <div
+                  {/* <div
                     className="owner-image-container relative w-80 h-96 lg:w-96 lg:h-[500px] overflow-hidden transition-all duration-[1200ms] ease-[cubic-bezier(0.22,0.61,0.36,1)]"
                     style={{
                       opacity: ownerVisible ? 1 : 0,
@@ -201,9 +207,9 @@ export default function About({ about, about_structs }: { about: AboutType, abou
                         priority
                       />
                     </div>
-                  </div>
+                  </div> */}
 
-                  <div
+                  {/* <div
                     className="absolute inset-0 border-4 border-main-white shadow-[0_0_30px_rgba(255,255,255,0.3)] transition-all duration-[1200ms] ease-[cubic-bezier(0.22,0.61,0.36,1)]"
                     style={{
                       opacity: ownerVisible ? 1 : 0,
@@ -213,10 +219,10 @@ export default function About({ about, about_structs }: { about: AboutType, abou
                       clipPath:
                         "polygon(30% 0%, 100% 0%, 100% 70%, 70% 100%, 0% 100%, 0% 30%)",
                     }}
-                  />
+                  /> */}  
                 </div>
 
-                <div className="flex-1 max-w-4xl about-animate">
+                <div className=" max-w-sm about-animate">
                   {/* <h2 className="text-4xl md:text-5xl font-bold text-main-white mb-4">
                     {about.title}
                   </h2> */}
@@ -327,19 +333,6 @@ export default function About({ about, about_structs }: { about: AboutType, abou
             >
               {about.title}
             </h2> */}
-
-            <div
-              className="text-center text-base text-gray-300 leading-relaxed mb-4 transition-all duration-[1200ms] ease-[cubic-bezier(0.22,0.61,0.36,1)] [&_p]:!text-center"
-              style={{
-                opacity: ownerVisible ? 1 : 0,
-                transform: ownerVisible
-                  ? "translateY(0px)"
-                  : "translateY(28px)",
-                filter: ownerVisible ? "blur(0px)" : "blur(10px)",
-                transitionDelay: ownerVisible ? "2100ms" : "0ms",
-              }}
-              dangerouslySetInnerHTML={{ __html: about.text }}
-            />
 
             <h3
               className="text-start sm:text-center owner-subtitle text-4xl lg:text-5xl text-gray-200 font-semibold transition-all duration-[1200ms] ease-[cubic-bezier(0.22,0.61,0.36,1)]"
