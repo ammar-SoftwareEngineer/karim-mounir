@@ -173,7 +173,7 @@ export default function Header() {
     <header
       ref={headerRef}
       className={clsx(
-        "fixed top-0 left-0 w-full z-[100] flex items-center justify-between px-6 h-fit",
+        "fixed top-0 left-0 w-full z-50 flex items-center justify-between px-6 h-fit",
         "transition-all duration-500 ease-in-out",
         scrolled ? "backdrop-blur-md bg-white/5" : "bg-transparent",
         showHeader
