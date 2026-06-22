@@ -318,13 +318,13 @@ export default function ProjectDetails({
             return (
               <div
                 key={img.id || i}
-                className={`relative overflow-hidden rounded-2xl cursor-pointer group ${spanClass}`}
+                className={`relative overflow-hidden rounded-2xl cursor-pointer group  ${spanClass}`}
                 onClick={() => setSelectedImage(i)}
               >
                 <img
                   src={getImageUrl(img.path)}
                   alt={img.file_name || `Project image ${i}`}
-                  className="object-cover transition-all duration-700 group-hover:scale-105"
+                  className="object-cover transition-all duration-700 group-hover:scale-105 h-full w-full"
                   onLoad={() => handleImageLoad(i)}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
