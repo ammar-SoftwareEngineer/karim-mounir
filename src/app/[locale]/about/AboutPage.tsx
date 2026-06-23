@@ -396,7 +396,7 @@ console.log(aboutApiData);
 
           <div className="text-xl md:text-4xl text-neutral-400 font-light tracking-wide capitalize">
             <FadeInWords
-             text={aboutApiData.data.about.title2 || ""}
+             text={"Design Beyond Form" || ""}
             />
           </div>
         </div>
