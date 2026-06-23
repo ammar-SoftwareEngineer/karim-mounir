@@ -32,7 +32,7 @@ const ContactPage: React.FC<{ contactApiData: ContactResponse }> = ({
   const schema = createFormSchema(locale);
   type FormValues = z.infer<typeof schema>;
 
-  console.log("Contact API Data:", contactApiData);
+  console.log("Contact API Data:", contactApiData );
 
   const {
     register,
@@ -338,6 +338,7 @@ const ContactPage: React.FC<{ contactApiData: ContactResponse }> = ({
                       {
                         Icon: Phone,
                         title: locale === "en" ? "Phone" : "الهاتف",
+                        code: contactApiData.data.contact_data.phone[0].code,
                         info: contactApiData.data.contact_data.phone[0].phone,
                         href: `tel:${contactApiData.data.contact_data.phone[0].phone}`,
                       },
@@ -354,7 +355,7 @@ const ContactPage: React.FC<{ contactApiData: ContactResponse }> = ({
                       },
                     ]
                   : []),
-              ].map(({ Icon, title, info, href }) => (
+              ].map(({ Icon, title, info, href, code }) => (
                 <a
                   key={title}
                   href={href}
@@ -369,7 +370,10 @@ const ContactPage: React.FC<{ contactApiData: ContactResponse }> = ({
                     <h3 className="text-[var(--color-main-white)] font-semibold mb-1">
                       {title}
                     </h3>
-                    <p className="text-[var(--color-deep-gray)] group-hover:text-[var(--color-mid-gray)] transition-colors duration-300">{info}</p>
+                    <div className="flex items-center gap-1">
+                      {title === "Phone" && <p className="text-[var(--color-deep-gray)] group-hover:text-[var(--color-mid-gray)] transition-colors duration-300">{code}</p>}
+                      <p className="text-[var(--color-deep-gray)] group-hover:text-[var(--color-mid-gray)] transition-colors duration-300">{info}</p>
+                    </div>
                   </div>
                 </a>
               ))}
