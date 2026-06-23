@@ -138,7 +138,19 @@ body {
   flex-shrink: 0;
 
 }
-
+@media (max-width: 768px) {
+  .scroll-section-outer,.about-mobile {
+    overflow: hidden;
+    position: relative;
+    background-color: var(--color-dark-gray) !important;
+    background: url('../../../public/Main\ page\ concept\ hiras.png') no-repeat ;
+    background-position: bottom left !important;
+    background-size: contain !important;
+  }
+  .scroll-section-inner {
+    background-color: var(--color-dark-gray) !important;
+  }
+}
 @media (max-width: 1024px) {
   .scroll-section-horizontaliy {
     min-height: 100vh;

@@ -251,7 +251,7 @@ export default function About({
           </div>
         </div>
       ) : (
-        <div className="flex flex-col gap-10 lg:gap-24 about-mobile min-h-[50vh]">
+        <div className="flex flex-col gap-10 lg:gap-24 about-mobile min-h-[75vh]">
           <div
             ref={visionRef}
             className="px-6 pt-24 pb-6 lg:py-24 text-center w-full min-h-fit"
