@@ -219,7 +219,7 @@ export default function About({
                       clipPath:
                         "polygon(30% 0%, 100% 0%, 100% 70%, 70% 100%, 0% 100%, 0% 30%)",
                     }}
-                  /> */}  
+                  /> */}
                 </div>
 
                 <div className="rtl:max-w-sm ltr:max-w-md about-animate">
@@ -233,9 +233,8 @@ export default function About({
                   />
 
                   <h3
-                    className={`text-end !text-2xl md:!text-5xl text-gray-200 font-semibold ${
-                      locale === "ar" ? "text-start" : "text-end"
-                    }`}
+                    className={`text-end !text-2xl md:!text-5xl text-gray-200 font-semibold ${locale === "ar" ? "text-start" : "text-end"
+                      }`}
                     dangerouslySetInnerHTML={{ __html: about.title2 }}
                   />
 
@@ -270,7 +269,7 @@ export default function About({
               dangerouslySetInnerHTML={{ __html: about_structs[0].title }}
             /> */}
             <div className="text-xl text-gray-300 leading-relaxed !text-center">
-              <FadeInWords text={about_structs[0].text} />
+              <FadeInWords text={about.text} />
             </div>
           </div>
 
@@ -335,7 +334,8 @@ export default function About({
             </h2> */}
 
             <h3
-              className="text-start sm:text-center owner-subtitle text-4xl lg:text-5xl text-gray-200 font-semibold transition-all duration-[1200ms] ease-[cubic-bezier(0.22,0.61,0.36,1)]"
+              className={`text-end !text-2xl md:!text-5xl text-gray-200 font-semibold ${locale === "ar" ? "text-start" : "text-end"
+                }`}
               style={{
                 opacity: ownerVisible ? 1 : 0,
                 transform: ownerVisible
@@ -346,6 +346,9 @@ export default function About({
               }}
               dangerouslySetInnerHTML={{ __html: about.title2 }}
             />
+
+
+
 
             <h3
               className="text-start sm:text-center text-sm lg:text-lg text-gray-200 font-semibold transition-all duration-[1200ms] ease-[cubic-bezier(0.22,0.61,0.36,1)]"

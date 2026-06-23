@@ -340,7 +340,7 @@ export default function AboutPage({
 }) {
   const t = useTranslations("home");
   const locale = useLocale();
-
+console.log(aboutApiData);
   return (
     <main className="min-h-screen relative overflow-x-hidden bg-gradient-to-br from-black via-neutral-900 to-black text-neutral-100">
       <style jsx global>{`
@@ -396,11 +396,7 @@ export default function AboutPage({
 
           <div className="text-xl md:text-4xl text-neutral-400 font-light tracking-wide capitalize">
             <FadeInWords
-              text={
-                locale === "en"
-                  ? "Design Leader & Principal Architect"
-                  : "  المؤسس و المهندس المعمارى الرئيسي"
-              }
+             text={aboutApiData.data.about.title2 || ""}
             />
           </div>
         </div>

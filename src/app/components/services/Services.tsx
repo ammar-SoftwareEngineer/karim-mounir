@@ -4,15 +4,16 @@ import { useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
-import { Service } from "@/types/homeApiTypes";
+import { Section, Service } from "@/types/homeApiTypes";
 import { useTranslations } from "next-intl";
 
 gsap.registerPlugin(ScrollTrigger);
 
-export default function Services({ services }: { services: Service[] }) {
+export default function Services({ services, sections }: { services: Service[], sections: Section[] }) {
   const container = useRef<HTMLDivElement>(null);
   const servicesRef = useRef<HTMLDivElement>(null);
   const t = useTranslations("home");
+console.log(sections);
 
   useGSAP(
     () => {
@@ -53,7 +54,7 @@ export default function Services({ services }: { services: Service[] }) {
     { scope: container },
   );
 
-  console.log(services)
+
 
   return (
     <div
@@ -86,9 +87,12 @@ export default function Services({ services }: { services: Service[] }) {
             className="text-lg md:text-2xl text-white/60 font-light max-w-3xl mx-auto leading-relaxed"
             style={{ fontFamily: '"Montserrat", sans-serif' }}
           >
-            {t(
-              "Crafting exceptional spaces through thoughtful design, innovative thinking, and meticulous execution",
-            )}
+            <div
+              className="text-base md:text-xl text-white/60 leading-relaxed font-light max-w-full mx-auto capitalize"
+              style={{ fontFamily: '"Montserrat", sans-serif' }}
+              dangerouslySetInnerHTML={{ __html: sections[2].short_desc || "" }}
+            >
+            </div>
           </p>
         </div>
       </section>

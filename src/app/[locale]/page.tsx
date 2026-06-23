@@ -114,7 +114,7 @@ export default async function Home({
 
       <Hero banner={banner} />
       <About about={about} about_structs={about_structs} />
-      <Services services={services}/>
+      <Services services={services} sections={sections}/>
       <ProjectsSection categories={categories} sections={sections} />
     </main>
   );
