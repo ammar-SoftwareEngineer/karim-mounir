@@ -92,7 +92,7 @@ export default function Hero({ banner }: { banner: Banner }) {
 
       <h1
         ref={titleRef}
-        className="relative z-10  w-full  md:px-12 mx-auto text-center pb-3 font-medium text-3xl md:text-6xl  capitalize leading-relaxed md:leading-loose lg:leading-[1.55] [&_.line]:block [&_.line:not(:last-child)]:mb-3 md:[&_.line:not(:last-child)]:mb-5 [&_.char]:inline-block [&_.char]:opacity-0"
+        className="relative z-10  w-full px-0 md:px-12 mx-auto text-center  font-medium text-3xl md:text-6xl  capitalize leading-relaxed md:leading-loose lg:leading-[1.55] [&_.line]:block [&_.line:not(:last-child)]:mb-3 md:[&_.line:not(:last-child)]:mb-5 [&_.char]:inline-block [&_.char]:opacity-0"
       >
         {titleText}
       </h1>
