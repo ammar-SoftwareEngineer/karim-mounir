@@ -116,9 +116,9 @@ console.log(sections);
                 <div className="absolute bottom-0 right-0 w-20 h-20 border-b-3 border-r-3 border-white/20 transition-all duration-500 group-hover:w-24 group-hover:h-24 group-hover:border-white/40" />
 
                 <div className="relative z-10">
-                  <div className="flex flex-col items-center text-center gap-8">
+                  <div className="flex flex-col items-center  text-center gap-8">
                     {/* Content */}
-                    <div className="flex-1 space-y-6">
+                    <div className="flex-1  space-y-6">
                       <h2
                         className="text-4xl md:text-6xl font-light tracking-tight leading-tight"
                         style={{ fontFamily: '"Lora", Georgia, serif' }}
@@ -128,11 +128,11 @@ console.log(sections);
 
                       <div className="w-24 h-px bg-white/30 mx-auto transition-all duration-500 group-hover:w-32 group-hover:bg-white/60" />
 
-                      <p
-                        className="text-base md:text-lg text-white/60 leading-relaxed font-light max-w-full mx-auto capitalize"
-                        style={{ fontFamily: '"Montserrat", sans-serif' }}
-                        dangerouslySetInnerHTML={{ __html: service.long_desc }}>
-                      </p>
+                      <div
+                        className="md:text-lg text-white/60 leading-relaxed font-light max-w-full mx-auto capitalize text-center [&_*]:!text-center"
+                        style={{ fontFamily: '"Montserrat", sans-serif', textAlign: "center" }}
+                        dangerouslySetInnerHTML={{ __html: service.long_desc }}
+                      />
                     </div>
                   </div>
                 </div>

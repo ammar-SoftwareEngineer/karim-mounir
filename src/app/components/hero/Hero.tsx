@@ -12,8 +12,9 @@ export default function Hero({ banner }: { banner: Banner }) {
   const bgRef = useRef<HTMLVideoElement>(null);
   const titleRef = useRef<HTMLHeadingElement>(null);
   const locale = useLocale();
+  const isArabic = locale === "ar";
 
-  const titleText = `${locale === "ar" ? "”" : "“"}${banner.title}${locale === "ar" ? "“" : "”"}`;
+  const titleText = `${banner.title} `;
 
   useGSAP(
     () => {
@@ -24,15 +25,15 @@ export default function Hero({ banner }: { banner: Banner }) {
       gsap.set(video, { opacity: 0 });
 
       const split = new SplitType(title, {
-        types: "lines,chars",
+        types: isArabic ? "lines,words" : "lines,chars",
         lineClass: "line",
-        charClass: "char",
+        ...(isArabic ? { wordClass: "word" } : { charClass: "char" }),
       });
 
-      const chars = split.chars;
-      if (!chars?.length) return;
+      const targets = (isArabic ? split.words : split.chars) ?? [];
+      const animateTargets = targets.length > 0 ? targets : [title];
 
-      gsap.set(chars, {
+      gsap.set(animateTargets, {
         opacity: 0,
         y: 28,
         filter: "blur(10px)",
@@ -45,12 +46,12 @@ export default function Hero({ banner }: { banner: Banner }) {
           ease: "power2.out",
         });
 
-        gsap.to(chars, {
+        gsap.to(animateTargets, {
           opacity: 1,
           y: 0,
           filter: "blur(0px)",
-          duration: 2,
-          stagger: 0.045,
+          duration: isArabic ? 1.4 : 2,
+          stagger: isArabic ? 0.12 : 0.045,
           ease: "power3.out",
           delay: 0.5,
         });
@@ -67,7 +68,7 @@ export default function Hero({ banner }: { banner: Banner }) {
         split.revert();
       };
     },
-    { scope: container, dependencies: [titleText] },
+    { scope: container, dependencies: [titleText, locale] },
   );
 
   return (
@@ -92,7 +93,12 @@ export default function Hero({ banner }: { banner: Banner }) {
 
       <h1
         ref={titleRef}
-        className="relative z-10  w-full px-0 md:px-12 mx-auto text-center  font-medium text-3xl md:text-6xl  capitalize leading-relaxed md:leading-loose lg:leading-[1.55] [&_.line]:block [&_.line:not(:last-child)]:mb-3 md:[&_.line:not(:last-child)]:mb-5 [&_.char]:inline-block [&_.char]:opacity-0"
+        dir={isArabic ? "rtl" : "ltr"}
+        className={`relative z-10 w-full px-0 md:px-12 mx-auto text-center font-medium text-3xl md:text-6xl capitalize leading-relaxed md:leading-loose lg:leading-[1.55] [&_.line]:block [&_.line:not(:last-child)]:mb-3 md:[&_.line:not(:last-child)]:mb-5 ${
+          isArabic
+            ? "[&_.word]:inline-block [&_.word]:opacity-0"
+            : "[&_.char]:inline-block [&_.char]:opacity-0"
+        }`}
       >
         {titleText}
       </h1>

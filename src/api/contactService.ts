@@ -18,6 +18,7 @@ export async function fetchContactData(lang = "en") {
 
     const data = await response.json();
 
+
     if (!response.ok) {
       console.error("Failed to fetch contact us data:", data);
       return { success: false, message: "Failed To Fetch Contact Us Data" };

@@ -423,15 +423,7 @@ export default function ProjectsSection({ categories, sections }: { categories: 
               {/* Content */}
               <div className="card-content absolute inset-0 w-full h-full flex items-center justify-center z-10 px-6 md:px-12">
                 <div className="card-copy max-w-4xl space-y-4 md:space-y-6 text-center flex flex-col items-center">
-                  <div className="card-text-animate flex items-center justify-center gap-3 text-lg text-white font-medium">
-                    <span className="h-px w-10 bg-white" />
-                    <div
-                      className="whitespace-nowrap inline-block"
-                      style={{ unicodeBidi: "isolate" }}
-                    >
-                      {t("Category")} 0{index + 1}
-                    </div>
-                  </div>
+                
                   <div className="card-title text-center card-text-animate">
                     <h2 className="text-4xl md:text-[5rem] font-semibold leading-[1.05] tracking-[-0.08em] drop-shadow-xl uppercase">
                       {project.name}

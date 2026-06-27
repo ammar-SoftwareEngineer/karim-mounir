@@ -31,6 +31,8 @@ export interface ContactPhone {
   code: string;
   phone: string;
   email: string;
+  whatsapp: string;
+
 }
 
 /* ================= CONTACT ADDRESS ================= */
@@ -53,6 +55,7 @@ export interface SocialMedia {
   tiktok: string;
   pinterest: string;
   snapchat: string;
+
 }
 
 /* ================= SEO (REUSE) ================= */

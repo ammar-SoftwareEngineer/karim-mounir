@@ -10,8 +10,9 @@ import {
   X,
   Send,
   Instagram,
-  Youtube,
+  Youtube
 } from "lucide-react";
+import { FaWhatsapp as Whatsapp } from "react-icons/fa";
 import { sendContactData } from "@/api/contactService";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -32,7 +33,7 @@ const ContactPage: React.FC<{ contactApiData: ContactResponse }> = ({
   const schema = createFormSchema(locale);
   type FormValues = z.infer<typeof schema>;
 
-  console.log("Contact API Data:", contactApiData );
+  // console.log("Contact API Data:", contactApiData );
 
   const {
     register,
@@ -403,8 +404,8 @@ const ContactPage: React.FC<{ contactApiData: ContactResponse }> = ({
                     href: contactApiData.data.social_media.instagram,
                   },
                   {
-                    Icon: Youtube,
-                    href: contactApiData.data.social_media.youtube,
+                    Icon: Whatsapp,
+                    href: `https://wa.me/${contactApiData.data.contact_data.phone[0].code}${contactApiData.data.contact_data.phone[0].phone}`,
                   },
                 ]
                   .filter((social) => social.href)
