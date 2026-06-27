@@ -7,6 +7,13 @@ import Link from "next/link";
 
 export default function CategoryCard({ category, href }: { category: Category, href: string }) {
   const t = useTranslations("home");
+
+  const getProjectCountLabel = (count: number) => {
+    if (count === 1) return t("project");
+    if (count === 11) return t("projectsTopTen");
+    return t("projects");
+  };
+
   return (
     <Link
       href={href}
@@ -28,7 +35,7 @@ export default function CategoryCard({ category, href }: { category: Category, h
       <div className="absolute inset-0 flex items-center justify-center">
         <p className="text-neutral-300 text-sm opacity-0 transform translate-y-4 transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0 font-medium">
           {t("view")} {category.projects.length}{" "}
-          {category.projects.length === 1 ? t("project") : t("projects")}
+          {getProjectCountLabel(category.projects.length)}
         </p>
       </div>
 
