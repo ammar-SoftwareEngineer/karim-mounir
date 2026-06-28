@@ -371,9 +371,13 @@ const ContactPage: React.FC<{ contactApiData: ContactResponse }> = ({
                     <h3 className="text-[var(--color-main-white)] font-semibold mb-1">
                       {title}
                     </h3>
-                    <div className="flex items-center gap-1">
-                      {title === "Phone" && <p className="text-[var(--color-deep-gray)] group-hover:text-[var(--color-mid-gray)] transition-colors duration-300">{code}</p>}
-                      <p className="text-[var(--color-deep-gray)] group-hover:text-[var(--color-mid-gray)] transition-colors duration-300">{info}</p>
+                    <div className="flex items-center gap-1" dir="ltr">
+                      {code && (
+                        <p className="text-[var(--color-deep-gray)] group-hover:text-[var(--color-mid-gray)] transition-colors duration-300" >
+                          {code}
+                        </p>
+                      )}
+                      <p className="text-[var(--color-deep-gray)] group-hover:text-[var(--color-mid-gray)] transition-colors duration-300" >{info}</p>
                     </div>
                   </div>
                 </a>
