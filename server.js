@@ -14,8 +14,9 @@ app.prepare().then(() => {
     const parsedUrl = parse(req.url, true);
     handle(req, res, parsedUrl);
   }).listen(port, hostname, () => {
+    const displayHost = hostname === "0.0.0.0" ? "localhost" : hostname;
     console.log(
-      `> Server ready on http://${hostname}:${port} (${dev ? "development" : "production"})`
+      `> Server ready on http://${displayHost}:${port} (${dev ? "development" : "production"})`
     );
   });
 });
