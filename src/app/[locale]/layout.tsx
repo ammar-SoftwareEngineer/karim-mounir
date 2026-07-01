@@ -1,8 +1,6 @@
 import "../styles/globals.css";
-import type { Metadata } from "next";
 import { Montserrat, IBM_Plex_Sans_Arabic } from "next/font/google";
-import { NextIntlClientProvider } from "next-intl";
-import { notFound } from "next/navigation";
+import { NextIntlClientProvider } from "next-intl";import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import Header from "@/app/components/header/Header";
@@ -10,6 +8,7 @@ import { ViewTransitions } from "next-view-transitions";
 import ScrollProvider from "../components/ScrollProvider";
 import ModernCursor from "../components/ModernCursor";
 import localFont from "next/font/local";
+import { rootSiteMetadata } from "@/lib/seo";
 
 const montserrat = Montserrat({  variable: "--font-montserrat",
   subsets: ["latin"],
@@ -34,15 +33,7 @@ const panama = localFont({
   display: "swap",
 });
 
-export const metadata: Metadata = {
-  title: "Karim Mounir",
-  description: "Karim Mounir For Interior Design",
-  icons: {
-    icon: [{ url: "/logo.jpg", type: "image/jpg" }],
-    shortcut: "/logo.jpg",
-    apple: "/logo.jpg",
-  },
-};
+export const metadata = rootSiteMetadata;
 export default async function RootLayout({
   children,
   params,
