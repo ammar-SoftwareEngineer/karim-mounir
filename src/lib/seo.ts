@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 export const SITE_NAME = "Karim Mounir";
 export const DEFAULT_DESCRIPTION = "Karim Mounir For Interior Design";
 export const API_HOST = "https://api.karimmounir.com";
-export const SHARE_IMAGE_PATH = "/logo.jpg";
-export const FAVICON_PATH = "/logo.jpg";
+export const SHARE_IMAGE_PATH = "/logo1.png";
+export const FAVICON_PATH = "/logo1.png";
 
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ??
@@ -170,7 +170,7 @@ export const rootSiteMetadata: Metadata = {
     images: [getShareImageUrl()],
   },
   icons: {
-    icon: [{ url: FAVICON_PATH, type: "image/jpeg" }],
+    icon: [{ url: FAVICON_PATH, type: "image/png" }],
     shortcut: FAVICON_PATH,
     apple: FAVICON_PATH,
   },
