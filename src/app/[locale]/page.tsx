@@ -5,6 +5,7 @@ import Hero from "../components/hero/Hero";
 import ProjectsSection from "../components/projects/ProjectsSection";
 import Services from "../components/services/Services";
 import { Metadata } from "next";
+import { buildPageMetadata } from "@/lib/seo";
 
 export async function generateMetadata({
   params,
@@ -13,68 +14,8 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const homeApiData: HomeResponse = await fetchHomeData(locale);
-  
-  if (!homeApiData || !homeApiData.seo) {
-    return {
-      title: "Home",
-    };
-  }
 
-  const { seo } = homeApiData;
-
-  const metaTags = seo.meta.meta_tags;
-  const openGraph = seo.meta.open_graph;
-  const twitterCard = seo.meta.twitter_card;
-  const hreflang = seo.meta.hreflang_tags;
-
-  return {
-    title: metaTags.title,
-    description: metaTags.description,
-    openGraph: {
-      title: openGraph["og:title"],
-      description: openGraph["og:description"],
-      url: openGraph["og:url"],
-      images: [
-        {
-          url: openGraph["og:image"],
-          alt: metaTags.title,
-        },
-      ],
-      type: openGraph["og:type"] as
-        | "website"
-        | "article"
-        | "book"
-        | "profile"
-        | "music.song"
-        | "music.album"
-        | "music.playlist"
-        | "music.radio_station"
-        | "video.movie"
-        | "video.episode"
-        | "video.tv_show"
-        | "video.other",
-    },
-    twitter: {
-      card: twitterCard["twitter:card"] as
-        | "summary"
-        | "summary_large_image"
-        | "app"
-        | "player",
-      title: twitterCard["twitter:title"],
-      description: twitterCard["twitter:description"],
-      images: [twitterCard["twitter:image"]],
-    },
-    metadataBase: new URL(metaTags.canonical),
-    robots: metaTags.robots,
-    alternates: {
-      canonical: metaTags.canonical,
-      languages: {
-        en: hreflang.en,
-        ar: hreflang.ar,
-        "x-default": hreflang["x-default"],
-      },
-    },
-  };
+  return buildPageMetadata(homeApiData?.seo, { title: "Home" });
 }
 
 export default async function Home({

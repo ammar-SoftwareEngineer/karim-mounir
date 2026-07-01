@@ -1,5 +1,4 @@
 import "../styles/globals.css";
-import type { Metadata } from "next";
 import { Montserrat, IBM_Plex_Sans_Arabic } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
@@ -35,10 +34,12 @@ const panama = localFont({
   display: "swap",
 });
 
-export const metadata: Metadata = {
+import { buildPageMetadata } from "@/lib/seo";
+
+export const metadata = buildPageMetadata(null, {
   title: "Karim Mounir",
   description: "Karim Mounir For Interior Design",
-};
+});
 
 export default async function RootLayout({
   children,
