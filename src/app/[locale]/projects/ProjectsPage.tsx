@@ -16,7 +16,7 @@ export default function ProjectsPage({projectsApiData}: {projectsApiData: Catego
   const gridRef = useRef<HTMLDivElement | null>(null);
 
   const categories = projectsApiData?.data?.categories ?? [];
-  console.log(categories);
+
   
 
   const selectedCategory = useMemo(() => {

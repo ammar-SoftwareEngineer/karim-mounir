@@ -13,7 +13,7 @@ export default function Services({ services, sections }: { services: Service[], 
   const container = useRef<HTMLDivElement>(null);
   const servicesRef = useRef<HTMLDivElement>(null);
   const t = useTranslations("home");
-console.log(sections);
+
 
   useGSAP(
     () => {
@@ -83,17 +83,11 @@ console.log(sections);
             {t("Our Services")}
           </h2>
 
-          <p
-            className="text-lg md:text-2xl text-white/60 font-light max-w-3xl mx-auto leading-relaxed"
+          <div
+            className="text-base md:text-xl text-white/60 leading-relaxed font-light max-w-3xl mx-auto capitalize"
             style={{ fontFamily: '"Montserrat", sans-serif' }}
-          >
-            <div
-              className="text-base md:text-xl text-white/60 leading-relaxed font-light max-w-full mx-auto capitalize"
-              style={{ fontFamily: '"Montserrat", sans-serif' }}
-              dangerouslySetInnerHTML={{ __html: sections[2].short_desc || "" }}
-            >
-            </div>
-          </p>
+            dangerouslySetInnerHTML={{ __html: sections[2].short_desc || "" }}
+          />
         </div>
       </section>
 
