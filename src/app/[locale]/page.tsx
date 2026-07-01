@@ -27,7 +27,8 @@ export async function generateMetadata({
   const openGraph = seo.meta.open_graph;
   const twitterCard = seo.meta.twitter_card;
   const hreflang = seo.meta.hreflang_tags;
-console.log("metaTags", openGraph);
+
+console.log("metaTags", openGraph["og:url"] + "/logo.jpg");
   return {
     title: metaTags.title,
     description: metaTags.description,
@@ -37,7 +38,7 @@ console.log("metaTags", openGraph);
       url: openGraph["og:url"],
       images: [
         {
-          url: openGraph["og:url"] + "/logo.jpg",
+          url:'../../../public/logo.jpg',
           alt: metaTags.title,
         },
       ],
