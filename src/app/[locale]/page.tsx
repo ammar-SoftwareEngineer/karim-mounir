@@ -5,7 +5,7 @@ import Hero from "../components/hero/Hero";
 import ProjectsSection from "../components/projects/ProjectsSection";
 import Services from "../components/services/Services";
 import { Metadata } from "next";
-import { log } from "console";
+import logo from "../../../public/logo.jpg";
 
 export async function generateMetadata({
   params,
@@ -27,7 +27,7 @@ export async function generateMetadata({
   const openGraph = seo.meta.open_graph;
   const twitterCard = seo.meta.twitter_card;
   const hreflang = seo.meta.hreflang_tags;
-log("metaTags", openGraph);
+
   return {
     title: metaTags.title,
     description: metaTags.description,
@@ -37,7 +37,7 @@ log("metaTags", openGraph);
       url: openGraph["og:url"],
       images: [
         {
-          url:"../../../public/logo.jpg",
+          url:"/logo.jpg",
           alt: metaTags.title,
         },
       ],
