@@ -27,6 +27,7 @@ export async function generateMetadata({
   const openGraph = seo.meta.open_graph;
   const twitterCard = seo.meta.twitter_card;
   const hreflang = seo.meta.hreflang_tags;
+console.log(seo);
 
   return {
     title: metaTags.title,

@@ -38,9 +38,9 @@ export const metadata: Metadata = {
   title: "Karim Mounir",
   description: "Karim Mounir For Interior Design",
   icons: {
-    icon: [{ url: "/icon.png", type: "image/png" }],
-    shortcut: "/icon.png",
-    apple: "/icon.png",
+    icon: [{ url: "/logo.jpg", type: "image/jpg" }],
+    shortcut: "/logo.jpg",
+    apple: "/logo.jpg",
   },
 };
 export default async function RootLayout({
