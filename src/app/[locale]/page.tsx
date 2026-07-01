@@ -5,7 +5,7 @@ import Hero from "../components/hero/Hero";
 import ProjectsSection from "../components/projects/ProjectsSection";
 import Services from "../components/services/Services";
 import { Metadata } from "next";
-import logo from "../../../public/logo.jpg";
+
 
 export async function generateMetadata({
   params,
@@ -37,7 +37,7 @@ export async function generateMetadata({
       url: openGraph["og:url"],
       images: [
         {
-          url:"/logo.jpg",
+          url: openGraph["og:image"],
           alt: metaTags.title,
         },
       ],
