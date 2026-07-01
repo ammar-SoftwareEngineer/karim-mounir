@@ -11,8 +11,7 @@ import ScrollProvider from "../components/ScrollProvider";
 import ModernCursor from "../components/ModernCursor";
 import localFont from "next/font/local";
 
-const montserrat = Montserrat({
-  variable: "--font-montserrat",
+const montserrat = Montserrat({  variable: "--font-montserrat",
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
 });
@@ -38,8 +37,12 @@ const panama = localFont({
 export const metadata: Metadata = {
   title: "Karim Mounir",
   description: "Karim Mounir For Interior Design",
+  icons: {
+    icon: [{ url: "/icon.png", type: "image/png" }],
+    shortcut: "/icon.png",
+    apple: "/icon.png",
+  },
 };
-
 export default async function RootLayout({
   children,
   params,
