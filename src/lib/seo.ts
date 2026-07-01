@@ -170,8 +170,8 @@ export const rootSiteMetadata: Metadata = {
     images: [getShareImageUrl()],
   },
   icons: {
-    icon: [{ url: FAVICON_PATH, type: "image/jpg" }],
-    shortcut: [{ url: FAVICON_PATH, type: "image/jpg" }],
-    apple: [{ url: FAVICON_PATH, type: "image/jpg" }],
+    icon: [{ url: FAVICON_PATH, type: "image/jpeg" }],
+    shortcut: FAVICON_PATH,
+    apple: FAVICON_PATH,
   },
 };

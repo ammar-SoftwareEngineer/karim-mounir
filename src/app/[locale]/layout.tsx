@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import { Montserrat, IBM_Plex_Sans_Arabic } from "next/font/google";
-import { NextIntlClientProvider } from "next-intl";import { notFound } from "next/navigation";
+import { NextIntlClientProvider } from "next-intl";
+import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import Header from "@/app/components/header/Header";
