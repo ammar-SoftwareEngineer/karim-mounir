@@ -7,9 +7,13 @@ import SplitType from "split-type";
 import { useLocale } from "next-intl";
 import { Banner } from "@/types/homeApiTypes";
 
+const HERO_VIDEO = "/Concept.mp4";
+const HERO_POSTER = "/hero-poster.jpg";
+
 export default function Hero({ banner }: { banner: Banner }) {
   const container = useRef<HTMLDivElement>(null);
   const bgRef = useRef<HTMLVideoElement>(null);
+  const posterRef = useRef<HTMLImageElement>(null);
   const titleRef = useRef<HTMLHeadingElement>(null);
   const locale = useLocale();
   const isArabic = locale === "ar";
@@ -19,6 +23,7 @@ export default function Hero({ banner }: { banner: Banner }) {
   useGSAP(
     () => {
       const video = bgRef.current;
+      const poster = posterRef.current;
       const title = titleRef.current;
       if (!video || !title) return;
 
@@ -46,6 +51,15 @@ export default function Hero({ banner }: { banner: Banner }) {
           ease: "power2.out",
         });
 
+        if (poster) {
+          gsap.to(poster, {
+            opacity: 0,
+            duration: 1.4,
+            ease: "power2.out",
+            delay: 0.2,
+          });
+        }
+
         gsap.to(animateTargets, {
           opacity: 1,
           y: 0,
@@ -57,14 +71,19 @@ export default function Hero({ banner }: { banner: Banner }) {
         });
       };
 
-      if (video.readyState >= 2) {
+      const startPlayback = () => {
+        void video.play().catch(() => {});
         animateIn();
+      };
+
+      if (video.readyState >= 3) {
+        startPlayback();
       } else {
-        video.addEventListener("canplay", animateIn, { once: true });
+        video.addEventListener("canplay", startPlayback, { once: true });
       }
 
       return () => {
-        video.removeEventListener("canplay", animateIn);
+        video.removeEventListener("canplay", startPlayback);
         split.revert();
       };
     },
@@ -77,16 +96,29 @@ export default function Hero({ banner }: { banner: Banner }) {
       className="hero relative h-screen overflow-hidden bg-gradient-to-br from-black via-neutral-900 to-black flex flex-col items-center justify-center px-4"
     >
       <div className="parallax">
+        <img
+          ref={posterRef}
+          src={HERO_POSTER}
+          alt=""
+          className="absolute inset-0 h-full w-full object-cover"
+          style={{ transform: "scale(1.02)" }}
+          fetchPriority="high"
+          decoding="async"
+          aria-hidden
+        />
         <video
           ref={bgRef}
           className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 ease-out will-change-transform opacity-0"
           style={{ transform: "scale(1.02)" }}
-          src="/Concept.mp4"
+          src={HERO_VIDEO}
+          poster={HERO_POSTER}
           autoPlay
           loop
           muted
           playsInline
           preload="auto"
+          // @ts-expect-error fetchPriority is valid on video in modern browsers
+          fetchPriority="high"
           aria-hidden
         />
       </div>

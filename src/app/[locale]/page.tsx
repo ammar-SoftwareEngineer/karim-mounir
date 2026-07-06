@@ -43,6 +43,14 @@ export default async function Home({
 
   return (
     <main className="home">
+      <link
+        rel="preload"
+        href="/Concept.mp4"
+        as="video"
+        type="video/mp4"
+        fetchPriority="high"
+      />
+      <link rel="preload" href="/hero-poster.jpg" as="image" fetchPriority="high" />
       {schema?.map((schemaItem: Schema, index: number) => (
         <script
           key={`schema-${schemaItem["@type"]}-${index}`}
