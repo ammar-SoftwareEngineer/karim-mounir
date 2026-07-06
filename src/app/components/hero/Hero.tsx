@@ -96,7 +96,7 @@ export default function Hero({ banner }: { banner: Banner }) {
       className="hero relative h-screen overflow-hidden bg-gradient-to-br from-black via-neutral-900 to-black flex flex-col items-center justify-center px-4"
     >
       <div className="parallax">
-        <img
+        {/* <img
           ref={posterRef}
           src={HERO_POSTER}
           alt=""
@@ -105,7 +105,7 @@ export default function Hero({ banner }: { banner: Banner }) {
           fetchPriority="high"
           decoding="async"
           aria-hidden
-        />
+        /> */}
         <video
           ref={bgRef}
           className="absolute inset-0 h-full w-full object-cover transition-transform duration-500 ease-out will-change-transform opacity-0"
