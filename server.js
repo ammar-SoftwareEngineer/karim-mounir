@@ -18,6 +18,5 @@ app.prepare().then(() => {
     console.log(
       `> Server ready on http://${displayHost}:${port} (${dev ? "development" : "production"})`
     );
-
   });
 });
