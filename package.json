@@ -4,9 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "node server.js",
-    "build": "next build",
+    "build": "UV_THREADPOOL_SIZE=1 NODE_OPTIONS='--max-old-space-size=512' next build",
     "start": "node server.js",
-    "deploy": "next build && cp -r public .next/standalone/ && cp -r .next/static .next/standalone/.next/ && cd .next/standalone && zip -rq ../../cpanel-deploy.zip .",
     "lint": "eslint"
   },
   "dependencies": {
