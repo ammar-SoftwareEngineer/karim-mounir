@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://karimmounir.com/en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/about"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/about"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/about</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/about"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/about"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/about"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/services</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/services"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/services"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/services"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/services</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/services"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/services"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/services"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/contact"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/contact</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/contact"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/contact"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/contact"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects?category=cultural-landmark-architecture</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects?category=cultural-landmark-architecture"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects?category=%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%84%D9%85"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects?category=cultural-landmark-architecture"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects?category=%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%84%D9%85</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects?category=cultural-landmark-architecture"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects?category=%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%AB%D9%82%D8%A7%D9%81%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D9%84%D9%85"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects?category=cultural-landmark-architecture"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/the-crescent-district</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/the-crescent-district"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/The-Crescent-District"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/the-crescent-district"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/The-Crescent-District</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/the-crescent-district"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/The-Crescent-District"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/the-crescent-district"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/the-crystal-canyon</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/the-crystal-canyon"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/The-Crystal-Canyon"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/the-crystal-canyon"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/The-Crystal-Canyon</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/the-crystal-canyon"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/The-Crystal-Canyon"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/the-crystal-canyon"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/power-of-the-desert</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/power-of-the-desert"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Power-Of-The-Desert"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/power-of-the-desert"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/Power-Of-The-Desert</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/power-of-the-desert"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Power-Of-The-Desert"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/power-of-the-desert"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/the-waterfall-pavilion</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/the-waterfall-pavilion"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/The-Waterfall-Pavilion"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/the-waterfall-pavilion"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/The-Waterfall-Pavilion</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/the-waterfall-pavilion"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/The-Waterfall-Pavilion"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/the-waterfall-pavilion"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects?category=commercial-architecture-destinations</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects?category=commercial-architecture-destinations"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects?category=%D8%A7%D9%84%D9%87%D9%86%D8%AF%D8%B3%D8%A9-%D8%A7%D9%84%D9%85%D8%B9%D9%85%D8%A7%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AD%D9%8A%D8%A9"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects?category=commercial-architecture-destinations"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects?category=%D8%A7%D9%84%D9%87%D9%86%D8%AF%D8%B3%D8%A9-%D8%A7%D9%84%D9%85%D8%B9%D9%85%D8%A7%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AD%D9%8A%D8%A9</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects?category=commercial-architecture-destinations"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects?category=%D8%A7%D9%84%D9%87%D9%86%D8%AF%D8%B3%D8%A9-%D8%A7%D9%84%D9%85%D8%B9%D9%85%D8%A7%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D9%88%D8%AC%D9%87%D8%A7%D8%AA-%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AD%D9%8A%D8%A9"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects?category=commercial-architecture-destinations"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/nexus-business-center</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/nexus-business-center"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Nexus-Business-Center"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/nexus-business-center"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/Nexus-Business-Center</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/nexus-business-center"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Nexus-Business-Center"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/nexus-business-center"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/the-mountain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/the-mountain"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/The-Mountain"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/the-mountain"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/The-Mountain</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/the-mountain"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/The-Mountain"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/the-mountain"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/el-sallab-hospital</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/el-sallab-hospital"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/El-Sallab-Hospital"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/el-sallab-hospital"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/El-Sallab-Hospital</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/el-sallab-hospital"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/El-Sallab-Hospital"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/el-sallab-hospital"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/elwan-ceramics-flagship-showroom</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/elwan-ceramics-flagship-showroom"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Elwan-Ceramics-Flagship-Showroom"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/elwan-ceramics-flagship-showroom"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/Elwan-Ceramics-Flagship-Showroom</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/elwan-ceramics-flagship-showroom"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Elwan-Ceramics-Flagship-Showroom"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/elwan-ceramics-flagship-showroom"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/dream-academy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/dream-academy"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Dream-Academy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/dream-academy"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/Dream-Academy</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/dream-academy"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Dream-Academy"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/dream-academy"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/el-gazar-showroom</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/el-gazar-showroom"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/El-Gazar-Showroom"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/el-gazar-showroom"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/El-Gazar-Showroom</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/el-gazar-showroom"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/El-Gazar-Showroom"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/el-gazar-showroom"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/elwan-administration-building</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/elwan-administration-building"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Elwan-Administration-Building"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/elwan-administration-building"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/Elwan-Administration-Building</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/elwan-administration-building"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Elwan-Administration-Building"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/elwan-administration-building"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/boutique-hotel</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/boutique-hotel"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Boutique-Hotel"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/boutique-hotel"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/Boutique-Hotel</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/boutique-hotel"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Boutique-Hotel"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/boutique-hotel"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects?category=experiential-interior-architecture</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects?category=experiential-interior-architecture"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects?category=%D8%A7%D9%84%D9%87%D9%86%D8%AF%D8%B3%D8%A9-%D8%A7%D9%84%D9%85%D8%B9%D9%85%D8%A7%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%AC%D8%B1%D9%8A%D8%A8%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects?category=experiential-interior-architecture"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects?category=%D8%A7%D9%84%D9%87%D9%86%D8%AF%D8%B3%D8%A9-%D8%A7%D9%84%D9%85%D8%B9%D9%85%D8%A7%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%AC%D8%B1%D9%8A%D8%A8%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects?category=experiential-interior-architecture"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects?category=%D8%A7%D9%84%D9%87%D9%86%D8%AF%D8%B3%D8%A9-%D8%A7%D9%84%D9%85%D8%B9%D9%85%D8%A7%D8%B1%D9%8A%D8%A9-%D8%A7%D9%84%D8%AA%D8%AC%D8%B1%D9%8A%D8%A8%D9%8A%D8%A9-%D9%88%D8%A7%D9%84%D8%AF%D8%A7%D8%AE%D9%84%D9%8A%D8%A9"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects?category=experiential-interior-architecture"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/blues</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/blues"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Blues"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/blues"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/Blues</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/blues"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Blues"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/blues"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/blues-fb-complex</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/blues-fb-complex"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Blues-F%26b-Complex"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/blues-fb-complex"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/Blues-F%26b-Complex</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/blues-fb-complex"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Blues-F%26b-Complex"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/blues-fb-complex"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/bussola-cafe</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/bussola-cafe"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Bussola-Cafe"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/bussola-cafe"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/Bussola-Cafe</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/bussola-cafe"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Bussola-Cafe"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/bussola-cafe"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/noire</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/noire"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Noir%C3%A9"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/noire"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/Noir%C3%A9</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/noire"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Noir%C3%A9"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/noire"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/karakeib-zayed</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/karakeib-zayed"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Karakeib-Zayed"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/karakeib-zayed"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/Karakeib-Zayed</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/karakeib-zayed"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Karakeib-Zayed"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/karakeib-zayed"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/campus-brew</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/campus-brew"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Campus-Brew"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/campus-brew"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/Campus-Brew</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/campus-brew"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Campus-Brew"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/campus-brew"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/vip-sharm-cafe</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/vip-sharm-cafe"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Vip-Sharm-Caf%C3%A9"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/vip-sharm-cafe"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/Vip-Sharm-Caf%C3%A9</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/vip-sharm-cafe"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Vip-Sharm-Caf%C3%A9"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/vip-sharm-cafe"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/the-arch-banha</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/the-arch-banha"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/The-Arch-Banha"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/the-arch-banha"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/The-Arch-Banha</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/the-arch-banha"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/The-Arch-Banha"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/the-arch-banha"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects?category=retail-brand-environments</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects?category=retail-brand-environments"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects?category=%D8%A8%D9%8A%D8%A6%D8%A7%D8%AA-%D8%A7%D9%84%D8%A8%D9%8A%D8%B9-%D8%A8%D8%A7%D9%84%D8%AA%D8%AC%D8%B2%D8%A6%D8%A9-%D9%88%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects?category=retail-brand-environments"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects?category=%D8%A8%D9%8A%D8%A6%D8%A7%D8%AA-%D8%A7%D9%84%D8%A8%D9%8A%D8%B9-%D8%A8%D8%A7%D9%84%D8%AA%D8%AC%D8%B2%D8%A6%D8%A9-%D9%88%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects?category=retail-brand-environments"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects?category=%D8%A8%D9%8A%D8%A6%D8%A7%D8%AA-%D8%A7%D9%84%D8%A8%D9%8A%D8%B9-%D8%A8%D8%A7%D9%84%D8%AA%D8%AC%D8%B2%D8%A6%D8%A9-%D9%88%D8%A7%D9%84%D8%B9%D9%84%D8%A7%D9%85%D8%A7%D8%AA-%D8%A7%D9%84%D8%AA%D8%AC%D8%A7%D8%B1%D9%8A%D8%A9"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects?category=retail-brand-environments"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/el-sahoo</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/el-sahoo"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/El-Sahoo"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/el-sahoo"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/El-Sahoo</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/el-sahoo"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/El-Sahoo"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/el-sahoo"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/el-sallab-zayed-atrium</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/el-sallab-zayed-atrium"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/El-Sallab-Zayed-Atrium"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/el-sallab-zayed-atrium"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/El-Sallab-Zayed-Atrium</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/el-sallab-zayed-atrium"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/El-Sallab-Zayed-Atrium"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/el-sallab-zayed-atrium"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/el-sallab-zayed-showrooms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/el-sallab-zayed-showrooms"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/El-Sallab-Zayed-Showrooms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/el-sallab-zayed-showrooms"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/El-Sallab-Zayed-Showrooms</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/el-sallab-zayed-showrooms"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/El-Sallab-Zayed-Showrooms"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/el-sallab-zayed-showrooms"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/omar-group-showroom</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/omar-group-showroom"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Omar-Group-Showroom"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/omar-group-showroom"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/Omar-Group-Showroom</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/omar-group-showroom"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Omar-Group-Showroom"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/omar-group-showroom"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/elwan-zayed-showroom</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/elwan-zayed-showroom"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Elwan-Zayed-Showroom"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/elwan-zayed-showroom"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/Elwan-Zayed-Showroom</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/elwan-zayed-showroom"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Elwan-Zayed-Showroom"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/elwan-zayed-showroom"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/hakeem-showroom</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/hakeem-showroom"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Hakeem-Showroom"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/hakeem-showroom"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/Hakeem-Showroom</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/hakeem-showroom"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/Hakeem-Showroom"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/hakeem-showroom"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/el-gazar-sanitary-ware</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/el-gazar-sanitary-ware"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/El-Gazar-Sanitary-Ware"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/el-gazar-sanitary-ware"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/El-Gazar-Sanitary-Ware</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/el-gazar-sanitary-ware"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/El-Gazar-Sanitary-Ware"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/el-gazar-sanitary-ware"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/el-marasam-showroom</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/el-marasam-showroom"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/El-Marasam-Showroom"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/el-marasam-showroom"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/El-Marasam-Showroom</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/el-marasam-showroom"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/El-Marasam-Showroom"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/el-marasam-showroom"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/shaaban-showroom</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/shaaban-showroom"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/shaaban-showroom"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/shaaban-showroom"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/shaaban-showroom</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/shaaban-showroom"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/shaaban-showroom"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/shaaban-showroom"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/shouman-showroom</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/shouman-showroom"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/shouman-showroom"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/shouman-showroom"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/shouman-showroom</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/shouman-showroom"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/shouman-showroom"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/shouman-showroom"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects?category=residential-architecture</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects?category=residential-architecture"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects?category=%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D9%83%D9%86%D9%8A%D8%A9"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects?category=residential-architecture"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects?category=%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D9%83%D9%86%D9%8A%D8%A9</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects?category=residential-architecture"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects?category=%D8%A7%D9%84%D8%B9%D9%85%D8%A7%D8%B1%D8%A9-%D8%A7%D9%84%D8%B3%D9%83%D9%86%D9%8A%D8%A9"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects?category=residential-architecture"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.75</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/luminous-court</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/luminous-court"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/luminous-court"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/luminous-court"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/luminous-court</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/luminous-court"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/luminous-court"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/luminous-court"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/ember-residence</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/ember-residence"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/ember-residence"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/ember-residence"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/ember-residence</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/ember-residence"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/ember-residence"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/ember-residence"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/aurel</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/aurel"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/aurel"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/aurel"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/aurel</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/aurel"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/aurel"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/aurel"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/the-solace-residence</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/the-solace-residence"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/the-solace-residence"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/the-solace-residence"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/the-solace-residence</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/the-solace-residence"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/the-solace-residence"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/the-solace-residence"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/aethera-villa</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/aethera-villa"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/aethera-villa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/aethera-villa"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/aethera-villa</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/aethera-villa"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/aethera-villa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/aethera-villa"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/solareum-house</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/solareum-house"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/solareum-house"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/solareum-house"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/solareum-house</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/solareum-house"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/solareum-house"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/solareum-house"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/east-horizon-villa</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/east-horizon-villa"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/east-horizon-villa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/east-horizon-villa"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/east-horizon-villa</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/east-horizon-villa"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/east-horizon-villa"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/east-horizon-villa"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/aurelia-court</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/aurelia-court"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/aurelia-court"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/aurelia-court"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/aurelia-court</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/aurelia-court"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/aurelia-court"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/aurelia-court"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/varenna-residence</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/varenna-residence"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/varenna-residence"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/varenna-residence"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/varenna-residence</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/varenna-residence"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/varenna-residence"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/varenna-residence"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/still-house</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/still-house"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/still-house"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/still-house"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/still-house</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/still-house"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/still-house"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/still-house"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/en/projects/the-layered-house</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/the-layered-house"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/the-layered-house"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/the-layered-house"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+  <url>
+    <loc>https://karimmounir.com/ar/projects/the-layered-house</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://karimmounir.com/en/projects/the-layered-house"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://karimmounir.com/ar/projects/the-layered-house"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://karimmounir.com/en/projects/the-layered-house"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.65</priority>
+  </url>
+</urlset>
