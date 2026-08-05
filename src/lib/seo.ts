@@ -87,6 +87,11 @@ function buildFallbackMetadata(title: string, description?: string): Metadata {
     title,
     description: pageDescription,
     metadataBase: new URL(SITE_URL),
+    alternates: {
+      types: {
+        "application/xml": `${SITE_URL}/sitemap.xml`,
+      },
+    },
     openGraph: {
       title,
       description: pageDescription,
@@ -144,6 +149,9 @@ export function buildPageSeoMetadata(
         ar: normalizeApiUrl(hreflang_tags.ar),
         "x-default": normalizeApiUrl(hreflang_tags["x-default"]),
       },
+      types: {
+        "application/xml": `${SITE_URL}/sitemap.xml`,
+      },
     },
   };
 }
@@ -155,6 +163,11 @@ export const rootSiteMetadata: Metadata = {
   },
   description: DEFAULT_DESCRIPTION,
   metadataBase: new URL(SITE_URL),
+  alternates: {
+    types: {
+      "application/xml": `${SITE_URL}/sitemap.xml`,
+    },
+  },
   openGraph: {
     title: SITE_NAME,
     description: DEFAULT_DESCRIPTION,

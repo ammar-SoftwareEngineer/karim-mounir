@@ -9,7 +9,7 @@ import { ViewTransitions } from "next-view-transitions";
 import ScrollProvider from "../components/ScrollProvider";
 import ModernCursor from "../components/ModernCursor";
 import localFont from "next/font/local";
-import { rootSiteMetadata } from "@/lib/seo";
+import { getSiteUrl, rootSiteMetadata } from "@/lib/seo";
 
 const montserrat = Montserrat({  variable: "--font-montserrat",
   subsets: ["latin"],
@@ -48,9 +48,19 @@ export default async function RootLayout({
   setRequestLocale(locale);
   const messages = await getMessages();
 
+  const siteUrl = getSiteUrl();
+
   return (
     <ViewTransitions>
       <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
+        <head>
+          <link
+            rel="sitemap"
+            type="application/xml"
+            title="Sitemap"
+            href={`${siteUrl}/sitemap.xml`}
+          />
+        </head>
         <body
           className={`${sakana.variable} ${panama.variable} ${
             locale === "ar" ? ibmPlexArabic.variable : montserrat.variable
